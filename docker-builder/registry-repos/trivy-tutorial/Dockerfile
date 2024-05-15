@@ -2,7 +2,7 @@
 FROM debian
 
 ENV DEBIAN_FRONTEND noninteractive
-
+#p
 # +---------------------------------------------------------+
 # INSTALACIÓN A NIVEL DE SISTEMA MEDIANTE GESTOR DE PAQUETES
 # +---------------------------------------------------------+
