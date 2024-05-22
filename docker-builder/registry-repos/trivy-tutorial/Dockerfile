@@ -9,9 +9,9 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -y &&\
     apt-get dist-upgrade -y &&\
-    apt-get install -y apache2 \
-        wget \
-	python3-pip\
+#    apt-get install -y apache2 \
+#        wget \
+#	python3-pip\
 #	libncursesw5-dev libssl-dev \
 #	libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev \
         build-essential &&\
