@@ -22,7 +22,7 @@ jobs:
       - name: Checkout current git repo # 
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GIT_AUTOMATION_USER_TOKEN }} # 
+          token: ${{ secrets.trivy}} # 
       - name: Instalar Trivy # 
         run: |
           bash install.sh
